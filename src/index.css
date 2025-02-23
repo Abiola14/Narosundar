@@ -56,6 +56,9 @@ header {
 .nav-item {
   margin: 0 16px;
 }
+.navbar {
+  background-color: #150303 !important;
+}
 /************************
  banner section css
 *************************/
@@ -69,7 +72,7 @@ header {
   align-items: center;
 }
 .banner-img img {
-  width: 100%;
+  width: 90%;
 }
 .b-content h1 {
   font-family: "Chivo", sans-serif;

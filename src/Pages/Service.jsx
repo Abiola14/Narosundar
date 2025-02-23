@@ -1,27 +1,53 @@
+import img4 from "/src/image/pic-00.png";
+import img5 from "/src/image/pic-2.png";
+import img6 from "/src/image/pic-3.png";
+import img7 from "/src/image/pic-5.png";
+import img8 from "/src/image/pic-6.png";
+import img9 from "/src/image/pic-7.png";
+import img10 from "/src/image/pic-13.png";
+import img11 from "/src/logo/services1.svg";
+import img12 from "/src/logo/services2.svg";
+import img13 from "/src/logo/services3.svg";
+import img14 from "/src/image/customer.png";
+import img15 from "/src/image/customer-1.png";
+import img16 from "/src/image/customer-2.png";
 const Service = () => {
   return (
     <div>
+      <div
+        className="container-fluid  text-white py-5 d-flex align-items-center navbar"
+        style={{ minHeight: "300px" }}
+      >
+        <div className="container">
+          <h1
+            className="fw-bold mb-3 "
+            style={{ color: "white", fontSize: "50px" }}
+          >
+            Services
+          </h1>
+        </div>
+      </div>
       <section id="price">
         <div className="container-fluid g-0">
           <div className="row g-0">
             <div className="col-md-7">
               <div className="p-user-img">
-                <img src="/src/image/pic-00.png" className="img-fluid" />
-                <img src="/src/image/pic-2.png" className="img-fluid" />
-                <img src="/src/image/pic-3.png" className="img-fluid" />
-                <img src="/src/image/pic-5.png" className="img-fluid" />
-                <img src="/src/image/pic-6.png" className="img-fluid" />
-                <img src="/src/image/pic-7.png" className="img-fluid" />
+                <img src={img4} className="img-fluid" />
+                <img src={img5} className="img-fluid" />
+                <img src={img6} className="img-fluid" />
+                <img src={img7} className="img-fluid" />
+                <img src={img8} className="img-fluid" />
+                <img src={img9} className="img-fluid" />
               </div>
             </div>
-            <div className="col-md-3 ms-4">
+            <div className="col-md-3">
               <div className="p-content ms-4">
                 <div className="line"></div>
                 <h2>OUR TOP PRICES</h2>
                 <div className="p-list">
                   <ol className="list-group">
                     <li className="d-flex justify-content-between align-items-start">
-                      <div className="ms-2 me-auto">
+                      <div className=" me-auto">
                         <div className="fw-bold">Special Beard Treatment</div>
                       </div>
                       <span className="p-amount">
@@ -29,7 +55,7 @@ const Service = () => {
                       </span>
                     </li>
                     <li className="d-flex justify-content-between align-items-start">
-                      <div className="ms-2 me-auto">
+                      <div className=" me-auto">
                         <div className="fw-bold">Color your Beard</div>
                       </div>
                       <span className="p-amount">
@@ -37,7 +63,7 @@ const Service = () => {
                       </span>
                     </li>
                     <li className="d-flex justify-content-between align-items-start">
-                      <div className="ms-2 me-auto">
+                      <div className=" me-auto">
                         <div className="fw-bold">Wax your Beard</div>
                       </div>
                       <span className="p-amount">
@@ -45,7 +71,7 @@ const Service = () => {
                       </span>
                     </li>
                     <li className="d-flex justify-content-between align-items-start">
-                      <div className="ms-2 me-auto">
+                      <div className=" me-auto">
                         <div className="fw-bold">Wax your Beard</div>
                       </div>
                       <span className="p-amount">
@@ -196,7 +222,7 @@ const Service = () => {
             <div className="col-md-1"></div>
             <div className="col-md-5">
               <div>
-                <img src="/src/image/pic-13.png" className="img-fluid" />
+                <img src={img10} className="img-fluid" />
               </div>
             </div>
           </div>
@@ -208,7 +234,7 @@ const Service = () => {
           <div className="row">
             <div className="offset-xl-1 col-xl-3 col-lg-4 col-md-4 col-sm-6">
               <div className="sc-item">
-                <img src="/src/logo/services1.svg" className="mb-4" />
+                <img src={img11} className="mb-4" />
                 <h3>
                   <a href="">Stylish hair cut</a>
                 </h3>
@@ -221,7 +247,7 @@ const Service = () => {
 
             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
               <div className="sc-item">
-                <img src="/src/logo/services2.svg" className="mb-4" />
+                <img src={img12} className="mb-4" />
                 <h3>
                   <a href="">Cut & Hair Style</a>
                 </h3>
@@ -234,7 +260,7 @@ const Service = () => {
 
             <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
               <div className="sc-item">
-                <img src="/src/logo/services3.svg" className="mb-4" />
+                <img src={img13} className="mb-4" />
                 <h3>
                   <a href="">Color & Hair Wash</a>
                 </h3>
@@ -249,7 +275,7 @@ const Service = () => {
       </section>
 
       {/* 4th Section */}
-      <section id="img-slider">
+      {/* <section id="img-slider">
         <div className="owl-carousel owl-theme">
           <div className="item">
             <div className="sl-item">
@@ -282,7 +308,7 @@ const Service = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* {5th Section} */}
 
       <section id="testimonial">
@@ -307,7 +333,7 @@ const Service = () => {
                     dunt ulter labore et dolore magna.
                   </p>
                   <div>
-                    <img src="/src/image/customer.png" />
+                    <img src={img14} />
                     <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
                   </div>
                 </div>
@@ -326,7 +352,7 @@ const Service = () => {
                     dunt ulter labore et dolore magna.
                   </p>
                   <div>
-                    <img src="/src/image/customer-1.png" />
+                    <img src={img15} />
                     <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
                   </div>
                 </div>
@@ -345,7 +371,7 @@ const Service = () => {
                     dunt ulter labore et dolore magna.
                   </p>
                   <div>
-                    <img src="/src/image/customer-2.png" />
+                    <img src={img16} />
                     <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
                   </div>
                 </div>

@@ -1,0 +1,73 @@
+.navbar {
+  padding: 10px 20px;
+  background-color: white; /* Adjust as needed */
+}
+
+.navbar-brand img {
+  max-width: 150px; /* Adjust size */
+  height: auto;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  padding: 8px 15px;
+}
+
+/* For screens smaller than 768px (Tablets & Mobile) */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    max-width: 120px; /* Reduce logo size */
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .quote-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+
+/* For screens smaller than 576px (Mobile) */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 5px 10px;
+  }
+
+  .navbar-toggler {
+    font-size: 1.2rem;
+  }
+
+  .navbar-brand img {
+    max-width: 100px;
+  }
+
+  .quote-btn {
+    width: 100%; /* Make the button full width */
+    text-align: center;
+    padding: 12px;
+  }
+}
+
+.navbar-collapse {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.navbar-collapse.show {
+  display: block !important;
+}
+.navbar-toggler svg {
+  color: white;
+}

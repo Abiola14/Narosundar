@@ -1,3 +1,19 @@
+import img1 from "/src/image/pic-4.png";
+import img2 from "/src/logo/right-arrow.svg";
+import img3 from "/src/image/pic-12.png";
+import img4 from "/src/image/pic-00.png";
+import img5 from "/src/image/pic-2.png";
+import img6 from "/src/image/pic-3.png";
+import img7 from "/src/image/pic-5.png";
+import img8 from "/src/image/pic-6.png";
+import img9 from "/src/image/pic-7.png";
+import img10 from "/src/image/pic-13.png";
+import img11 from "/src/logo/services1.svg";
+import img12 from "/src/logo/services2.svg";
+import img13 from "/src/logo/services3.svg";
+import img14 from "/src/image/customer.png";
+import img15 from "/src/image/customer-1.png";
+import img16 from "/src/image/customer-2.png";
 const Home = () => {
   return (
     <>
@@ -22,7 +38,7 @@ const Home = () => {
             </div>
             <div className="col-md-6 offset-1">
               <div className="banner-img">
-                <img src="/src/image/pic-4.png" className="img-fluid" />
+                <img src={img1} className="img-fluid" />
               </div>
             </div>
           </div>
@@ -35,7 +51,7 @@ const Home = () => {
             <div className="col-md-4">
               <div className="a-item d-flex">
                 <span href="#" className="d-inline-block me-4">
-                  <img src="/src/logo/right-arrow.svg" />
+                  <img src={img2} />
                 </span>
                 <span className="d-inline-block a-dece">
                   {" "}
@@ -46,7 +62,7 @@ const Home = () => {
 
               <div className="a-item d-flex">
                 <span href="#" className="d-inline-block me-4">
-                  <img src="/src/logo/right-arrow.svg" />
+                  <img src={img2} />
                 </span>
                 <span className="d-inline-block a-dece">
                   Psum available be the majority have suffered alteration in
@@ -56,7 +72,7 @@ const Home = () => {
 
               <div className="a-item d-flex">
                 <span href="#" className="d-inline-block me-4">
-                  <img src="/src/logo/right-arrow.svg" />
+                  <img src={img2} />
                 </span>
                 <span className="d-inline-block a-dece">
                   Available be the majority have suffered alteration in some
@@ -66,7 +82,7 @@ const Home = () => {
 
               <div className="a-item d-flex">
                 <span href="#" className="d-inline-block me-4">
-                  <img src="/src/logo/right-arrow.svg" />
+                  <img src={img2} />
                 </span>
                 <span className="d-inline-block a-dece">
                   Humour available be the majority have suffered alteration in
@@ -74,8 +90,8 @@ const Home = () => {
                 </span>
               </div>
             </div>
-            <div className="col-md-4 mx-5">
-              <img src="/src/image/pic-12.png" className="img-fluid" />
+            <div className="col-md-4 ">
+              <img src={img3} className="img-fluid" />
             </div>
             <div className="col-md-3 my-4">
               <div className="line"></div>
@@ -99,22 +115,22 @@ const Home = () => {
             <div className="row g-0">
               <div className="col-md-7">
                 <div className="p-user-img">
-                  <img src="/src/image/pic-00.png" className="img-fluid" />
-                  <img src="/src/image/pic-2.png" className="img-fluid" />
-                  <img src="/src/image/pic-3.png" className="img-fluid" />
-                  <img src="/src/image/pic-5.png" className="img-fluid" />
-                  <img src="/src/image/pic-6.png" className="img-fluid" />
-                  <img src="/src/image/pic-7.png" className="img-fluid" />
+                  <img src={img4} className="img-fluid" />
+                  <img src={img5} className="img-fluid" />
+                  <img src={img6} className="img-fluid" />
+                  <img src={img7} className="img-fluid" />
+                  <img src={img8} className="img-fluid" />
+                  <img src={img9} className="img-fluid" />
                 </div>
               </div>
-              <div className="col-md-3 ms-4">
+              <div className="col-md-3">
                 <div className="p-content ms-4">
                   <div className="line"></div>
                   <h2>OUR TOP PRICES</h2>
                   <div className="p-list">
                     <ol className="list-group">
                       <li className="d-flex justify-content-between align-items-start">
-                        <div className="ms-2 me-auto">
+                        <div className=" me-auto">
                           <div className="fw-bold">Special Beard Treatment</div>
                         </div>
                         <span className="p-amount">
@@ -122,7 +138,7 @@ const Home = () => {
                         </span>
                       </li>
                       <li className="d-flex justify-content-between align-items-start">
-                        <div className="ms-2 me-auto">
+                        <div className=" me-auto">
                           <div className="fw-bold">Color your Beard</div>
                         </div>
                         <span className="p-amount">
@@ -130,7 +146,7 @@ const Home = () => {
                         </span>
                       </li>
                       <li className="d-flex justify-content-between align-items-start">
-                        <div className="ms-2 me-auto">
+                        <div className=" me-auto">
                           <div className="fw-bold">Wax your Beard</div>
                         </div>
                         <span className="p-amount">
@@ -138,7 +154,7 @@ const Home = () => {
                         </span>
                       </li>
                       <li className="d-flex justify-content-between align-items-start">
-                        <div className="ms-2 me-auto">
+                        <div className=" me-auto">
                           <div className="fw-bold">Wax your Beard</div>
                         </div>
                         <span className="p-amount">
@@ -293,7 +309,7 @@ const Home = () => {
               <div className="col-md-1"></div>
               <div className="col-md-5">
                 <div>
-                  <img src="/src/image/pic-13.png" className="img-fluid" />
+                  <img src={img10} className="img-fluid" />
                 </div>
               </div>
             </div>
@@ -305,7 +321,7 @@ const Home = () => {
             <div className="row">
               <div className="offset-xl-1 col-xl-3 col-lg-4 col-md-4 col-sm-6">
                 <div className="sc-item">
-                  <img src="/src/logo/services1.svg" className="mb-4" />
+                  <img src={img11} className="mb-4" />
                   <h3>
                     <a href="">Stylish hair cut</a>
                   </h3>
@@ -318,7 +334,7 @@ const Home = () => {
 
               <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
                 <div className="sc-item">
-                  <img src="/src/logo/services2.svg" className="mb-4" />
+                  <img src={img12} className="mb-4" />
                   <h3>
                     <a href="">Cut & Hair Style</a>
                   </h3>
@@ -331,7 +347,7 @@ const Home = () => {
 
               <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
                 <div className="sc-item">
-                  <img src="/src/logo/services3.svg" className="mb-4" />
+                  <img src={img13} className="mb-4" />
                   <h3>
                     <a href="">Color & Hair Wash</a>
                   </h3>
@@ -345,8 +361,8 @@ const Home = () => {
           </div>
         </section>
 
-        {/* 4th Section */}
-        <section id="img-slider">
+        {/* slide */}
+        {/* <section id="img-slider">
           <div className="owl-carousel owl-theme">
             <div className="item">
               <div className="sl-item">
@@ -379,8 +395,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </section>
-        {/* {5th Section} */}
+        </section> */}
+        {/* slide */}
 
         <section id="testimonial">
           <div className="container">
@@ -404,7 +420,7 @@ const Home = () => {
                       dunt ulter labore et dolore magna.
                     </p>
                     <div>
-                      <img src="/src/image/customer.png" />
+                      <img src={img14} />
                       <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
                     </div>
                   </div>
@@ -423,7 +439,7 @@ const Home = () => {
                       dunt ulter labore et dolore magna.
                     </p>
                     <div>
-                      <img src="/src/image/customer-1.png" />
+                      <img src={img15} />
                       <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
                     </div>
                   </div>
@@ -442,7 +458,7 @@ const Home = () => {
                       dunt ulter labore et dolore magna.
                     </p>
                     <div>
-                      <img src="/src/image/customer-2.png" />
+                      <img src={img16} />
                       <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
                     </div>
                   </div>

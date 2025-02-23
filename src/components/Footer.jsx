@@ -51,8 +51,8 @@ const Footer = () => {
 
         <div className="col-md-12 text-center">
           <p className="copyright">
-            Copyright ©2022 All rights reserved | This template is made with
-            <i className="fa fa-heart"></i> by <a href="index.html">Sanghita</a>
+            Copyright ©2022 All rights reserved | This template is made with by{" "}
+            <a href="https://bastech.cordismariaeschools.com/">BasTech</a>
           </p>
         </div>
       </footer>
