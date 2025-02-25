@@ -7,90 +7,92 @@ import img13 from "/src/logo/services3.svg";
 import img14 from "/src/image/customer.png";
 import img15 from "/src/image/customer-1.png";
 import img16 from "/src/image/customer-2.png";
+
 const About = () => {
   return (
     <>
       <div
-        className="container-fluid  text-white py-5 d-flex align-items-center navbar"
+        className="container-fluid text-white py-5 d-flex align-items-center navbar"
         style={{ minHeight: "300px" }}
       >
-        <div className="container">
+        <div className="container text-center">
           <h1
-            className="fw-bold mb-3 "
-            style={{ color: "white", fontSize: "50px" }}
+            className="fw-bold mb-3"
+            style={{ fontSize: "50px", color: "white" }}
           >
             About
           </h1>
         </div>
       </div>
+
       <section className="container" id="about">
-        <div className="col-sm-12">
-          <div className="row">
-            <div className="col-md-4">
-              <div className="a-item d-flex">
-                <span href="#" className="d-inline-block me-4">
-                  <img src={img1} />
-                </span>
-                <span className="d-inline-block a-dece">
-                  {" "}
-                  Be the majority have suffered alteration in some form, by
-                  injected humour.
-                </span>
-              </div>
-
-              <div className="a-item d-flex">
-                <span href="#" className="d-inline-block me-4">
-                  <img src={img1} />
-                </span>
-                <span className="d-inline-block a-dece">
-                  Psum available be the majority have suffered alteration in
-                  some form, by injected humour.
-                </span>
-              </div>
-
-              <div className="a-item d-flex">
-                <span href="#" className="d-inline-block me-4">
-                  <img src={img1} />
-                </span>
-                <span className="d-inline-block a-dece">
-                  Available be the majority have suffered alteration in some
-                  form, by injected humour.
-                </span>
-              </div>
-
-              <div className="a-item d-flex">
-                <span href="#" className="d-inline-block me-4">
-                  <img src={img1} />
-                </span>
-                <span className="d-inline-block a-dece">
-                  Humour available be the majority have suffered alteration in
-                  some form, by injected.
-                </span>
-              </div>
+        <div className="row">
+          <div className="col-md-4 mb-4">
+            <div className="a-item d-flex">
+              <span className="d-inline-block me-4">
+                <img src={img1} alt="Icon" />
+              </span>
+              <span className="d-inline-block a-dece">
+                Be the majority have suffered alteration in some form, by
+                injected humour.
+              </span>
             </div>
-            <div className="col-md-4">
-              <img src={img2} className="img-fluid" />
+
+            <div className="a-item d-flex">
+              <span className="d-inline-block me-4">
+                <img src={img1} alt="Icon" />
+              </span>
+              <span className="d-inline-block a-dece">
+                Psum available be the majority have suffered alteration in some
+                form, by injected humour.
+              </span>
             </div>
-            <div className="col-md-3 my-4">
-              <div className="line"></div>
-              <h2>ABOUT OUR STORY</h2>
-              <p>
-                There are many variations of passages of Lorem Ipsum available
-                be the majority have suffered alteration in some form, by
-                injected humour or randomised words.
-              </p>
-              <a href="" className="book-btn transparent">
-                Book Now
-              </a>
+
+            <div className="a-item d-flex">
+              <span className="d-inline-block me-4">
+                <img src={img1} alt="Icon" />
+              </span>
+              <span className="d-inline-block a-dece">
+                Available be the majority have suffered alteration in some form,
+                by injected humour.
+              </span>
             </div>
+
+            <div className="a-item d-flex">
+              <span className="d-inline-block me-4">
+                <img src={img1} alt="Icon" />
+              </span>
+              <span className="d-inline-block a-dece">
+                Humour available be the majority have suffered alteration in
+                some form, by injected.
+              </span>
+            </div>
+          </div>
+
+          <div className="col-md-4 mb-4">
+            <img src={img2} className="img-fluid" alt="About Image" />
+          </div>
+
+          <div className="col-md-4 my-4">
+            <div className="line ms-5"></div>
+            <h2 className="ms-5">ABOUT OUR STORY</h2>
+            <p className="ms-5">
+              There are many variations of passages of Lorem Ipsum available be
+              the majority have suffered alteration in some form, by injected
+              humour or randomised words.
+            </p>
+            <a href="#" className="book-btn transparent ms-5">
+              Book Now
+            </a>
           </div>
         </div>
       </section>
+
       {/* 2nd Section */}
       <section id="service">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 mb-4">
               <div className="s-content">
                 <div className="line"></div>
                 <h2 className="title">ALL WE DO FOR YOU</h2>
@@ -116,39 +118,39 @@ const About = () => {
                     >
                       <div className="accordion-body">
                         <div className="p-list">
-                          <ol className="list-group">
-                            <li className="d-flex justify-content-between align-items-start">
-                              <div className="ms-2 me-auto">
+                          <ol className="list-unstyled">
+                            <li className="d-flex justify-content-between align-items-start mb-2">
+                              <div className="me-auto">
                                 <div className="fw-bold">
                                   Special Beard Treatment
                                 </div>
                               </div>
                               <span className="p-amount">
-                                From<span>$40</span>
+                                From <span>$40</span>
                               </span>
                             </li>
-                            <li className="d-flex justify-content-between align-items-start">
-                              <div className="ms-2 me-auto">
+                            <li className="d-flex justify-content-between align-items-start mb-2">
+                              <div className="me-auto">
                                 <div className="fw-bold">Color your Beard</div>
                               </div>
                               <span className="p-amount">
-                                From<span>$40</span>
+                                From <span>$40</span>
                               </span>
                             </li>
-                            <li className="d-flex justify-content-between align-items-start">
-                              <div className="ms-2 me-auto">
+                            <li className="d-flex justify-content-between align-items-start mb-2">
+                              <div className="me-auto">
                                 <div className="fw-bold">Wax your Beard</div>
                               </div>
                               <span className="p-amount">
-                                From<span>$40</span>
+                                From <span>$40</span>
                               </span>
                             </li>
-                            <li className="d-flex justify-content-between align-items-start">
-                              <div className="ms-2 me-auto">
-                                <div className="fw-bold">Wax your Beard</div>
+                            <li className="d-flex justify-content-between align-items-start mb-2">
+                              <div className="me-auto">
+                                <div className="fw-bold">Another Service</div>
                               </div>
                               <span className="p-amount">
-                                From<span>$40</span>
+                                From <span>$40</span>
                               </span>
                             </li>
                           </ol>
@@ -166,7 +168,7 @@ const About = () => {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                        For Bread
+                        For Beard
                       </button>
                     </h2>
                     <div
@@ -177,39 +179,39 @@ const About = () => {
                     >
                       <div className="accordion-body">
                         <div className="p-list">
-                          <ol className="list-group">
-                            <li className="d-flex justify-content-between align-items-start">
-                              <div className="ms-2 me-auto">
+                          <ol className="list-unstyled">
+                            <li className="d-flex justify-content-between align-items-start mb-2">
+                              <div className="me-auto">
                                 <div className="fw-bold">
                                   Special Beard Treatment
                                 </div>
                               </div>
                               <span className="p-amount">
-                                From<span>$40</span>
+                                From <span>$40</span>
                               </span>
                             </li>
-                            <li className="d-flex justify-content-between align-items-start">
-                              <div className="ms-2 me-auto">
+                            <li className="d-flex justify-content-between align-items-start mb-2">
+                              <div className="me-auto">
                                 <div className="fw-bold">Color your Beard</div>
                               </div>
                               <span className="p-amount">
-                                From<span>$40</span>
+                                From <span>$40</span>
                               </span>
                             </li>
-                            <li className="d-flex justify-content-between align-items-start">
-                              <div className="ms-2 me-auto">
+                            <li className="d-flex justify-content-between align-items-start mb-2">
+                              <div className="me-auto">
                                 <div className="fw-bold">Wax your Beard</div>
                               </div>
                               <span className="p-amount">
-                                From<span>$40</span>
+                                From <span>$40</span>
                               </span>
                             </li>
-                            <li className="d-flex justify-content-between align-items-start">
-                              <div className="ms-2 me-auto">
-                                <div className="fw-bold">Wax your Beard</div>
+                            <li className="d-flex justify-content-between align-items-start mb-2">
+                              <div className="me-auto">
+                                <div className="fw-bold">Another Service</div>
                               </div>
                               <span className="p-amount">
-                                From<span>$40</span>
+                                From <span>$40</span>
                               </span>
                             </li>
                           </ol>
@@ -221,10 +223,8 @@ const About = () => {
               </div>
             </div>
             <div className="col-md-1"></div>
-            <div className="col-md-5">
-              <div>
-                <img src={img10} className="img-fluid" />
-              </div>
+            <div className="col-md-5 mb-4">
+              <img src={img10} className="img-fluid" alt="Service" />
             </div>
           </div>
         </div>
@@ -234,9 +234,13 @@ const About = () => {
       <section id="s-category">
         <div className="container">
           <div className="row">
-            <div className="offset-xl-1 col-xl-3 col-lg-4 col-md-4 col-sm-6">
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-4">
               <div className="sc-item">
-                <img src={img11} className="mb-4" />
+                <img
+                  src={img11}
+                  className="mb-4 img-fluid"
+                  alt="Stylish Hair Cut"
+                />
                 <h3>
                   <a href="">Stylish hair cut</a>
                 </h3>
@@ -247,9 +251,13 @@ const About = () => {
               </div>
             </div>
 
-            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-4">
               <div className="sc-item">
-                <img src={img12} className="mb-4" />
+                <img
+                  src={img12}
+                  className="mb-4 img-fluid"
+                  alt="Cut & Hair Style"
+                />
                 <h3>
                   <a href="">Cut & Hair Style</a>
                 </h3>
@@ -260,9 +268,13 @@ const About = () => {
               </div>
             </div>
 
-            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-4">
               <div className="sc-item">
-                <img src={img13} className="mb-4" />
+                <img
+                  src={img13}
+                  className="mb-4 img-fluid"
+                  alt="Color & Hair Wash"
+                />
                 <h3>
                   <a href="">Color & Hair Wash</a>
                 </h3>
@@ -284,7 +296,7 @@ const About = () => {
               <h2 className="title">CUSTOMERS SAY ABOUT US</h2>
             </div>
             <div className="row">
-              <div className="col-md-4 c-border">
+              <div className="col-md-4 mb-4">
                 <div className="t-item">
                   <div className="review-star">
                     <i className="fa fa-star"></i>
@@ -298,12 +310,12 @@ const About = () => {
                     dunt ulter labore et dolore magna.
                   </p>
                   <div>
-                    <img src={img14} />
+                    <img src={img14} alt="Customer 1" />
                     <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 c-border">
+              <div className="col-md-4 mb-4">
                 <div className="t-item">
                   <div className="review-star">
                     <i className="fa fa-star"></i>
@@ -317,12 +329,12 @@ const About = () => {
                     dunt ulter labore et dolore magna.
                   </p>
                   <div>
-                    <img src={img15} />
+                    <img src={img15} alt="Customer 2" />
                     <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 c-border">
+              <div className="col-md-4 mb-4">
                 <div className="t-item">
                   <div className="review-star">
                     <i className="fa fa-star"></i>
@@ -336,7 +348,7 @@ const About = () => {
                     dunt ulter labore et dolore magna.
                   </p>
                   <div>
-                    <img src={img16} />
+                    <img src={img16} alt="Customer 3" />
                     <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
                   </div>
                 </div>

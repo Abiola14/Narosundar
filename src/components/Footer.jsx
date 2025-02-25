@@ -1,13 +1,12 @@
 const Footer = () => {
   return (
     <div>
-      {" "}
       <footer>
         <div className="container">
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-3 text-center mb-4">
               <div className="footer-1">
-                <i className="fa fa-phone"></i>
+                <i className="fa fa-phone fa-2x"></i>
                 <h5>CONTACT INFO</h5>
                 <p>913-473-7000</p>
                 <a href="mailto:sanhitadhar394@gmail.com">
@@ -15,30 +14,34 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="col-md-6 text-center">
+            <div className="col-md-6 text-center mb-4">
               <div className="footer-1">
-                <img src="/src/image/footer-logo.png" className="mb-4" />
+                <img
+                  src="/src/image/footer-logo.png"
+                  className="mb-4"
+                  alt="Footer Logo"
+                />
                 <p className="mb-4">
                   There are many variations of <br />
                   passages of Lorem Ipsum available be the majority.
                 </p>
                 <div className="footer-icon">
-                  <a href="">
-                    <i className="fa fa-facebook"></i>
+                  <a href="#" className="mx-2">
+                    <i className="fa fa-facebook fa-2x"></i>
                   </a>
-                  <a href="">
-                    <i className="fa fa-instagram"></i>
+                  <a href="#" className="mx-2">
+                    <i className="fa fa-instagram fa-2x"></i>
                   </a>
-                  <a href="">
-                    <i className="fa fa-linkedin"></i>
+                  <a href="#" className="mx-2">
+                    <i className="fa fa-linkedin fa-2x"></i>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 text-center mb-4">
               <div className="footer-1">
-                <i className="fa fa-location-arrow"></i>
-                <h5>CONTACT INFO</h5>
+                <i className="fa fa-location-arrow fa-2x"></i>
+                <h5>ADDRESS</h5>
                 <p>913-473-7000</p>
                 <a href="mailto:sanhitadhar394@gmail.com">
                   contact@cakeshop.com
@@ -49,11 +52,16 @@ const Footer = () => {
           <div className="f-line"></div>
         </div>
 
-        <div className="col-md-12 text-center">
-          <p className="copyright">
-            Copyright ©2022 All rights reserved | This template is made with by{" "}
-            <a href="https://bastech.cordismariaeschools.com/">BasTech</a>
-          </p>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <p className="copyright">
+                Copyright ©2022 All rights reserved | This template is made with
+                by{" "}
+                <a href="https://bastech.cordismariaeschools.com/">BasTech</a>
+              </p>
+            </div>
+          </div>
         </div>
       </footer>
       <div id="back-top">

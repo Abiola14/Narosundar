@@ -11,71 +11,73 @@ import img13 from "/src/logo/services3.svg";
 import img14 from "/src/image/customer.png";
 import img15 from "/src/image/customer-1.png";
 import img16 from "/src/image/customer-2.png";
+
 const Service = () => {
   return (
     <div>
       <div
-        className="container-fluid  text-white py-5 d-flex align-items-center navbar"
+        className="container-fluid text-white py-5 d-flex align-items-center navbar"
         style={{ minHeight: "300px" }}
       >
         <div className="container">
           <h1
-            className="fw-bold mb-3 "
-            style={{ color: "white", fontSize: "50px" }}
+            className="fw-bold mb-3 text-center"
+            style={{ fontSize: "50px", color: "white" }}
           >
             Services
           </h1>
         </div>
       </div>
+      {/* section 1 */}
       <section id="price">
         <div className="container-fluid g-0">
           <div className="row g-0">
             <div className="col-md-7">
               <div className="p-user-img">
-                <img src={img4} className="img-fluid" />
-                <img src={img5} className="img-fluid" />
-                <img src={img6} className="img-fluid" />
-                <img src={img7} className="img-fluid" />
-                <img src={img8} className="img-fluid" />
-                <img src={img9} className="img-fluid" />
+                <img src={img4} className="img-fluid" alt="Service 1" />
+                <img src={img5} className="img-fluid" alt="Service 2" />
+                <img src={img6} className="img-fluid" alt="Service 3" />
+                <img src={img7} className="img-fluid" alt="Service 4" />
+                <img src={img8} className="img-fluid" alt="Service 5" />
+                <img src={img9} className="img-fluid" alt="Service 6" />
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-5">
               <div className="p-content ms-4">
-                <div className="line"></div>
-                <h2>OUR TOP PRICES</h2>
+                <div className="line ms-5"></div>
+                <h2 className="text-center">OUR TOP PRICES</h2>
                 <div className="p-list">
                   <ol className="list-group">
-                    <li className="d-flex justify-content-between align-items-start">
-                      <div className=" me-auto">
+                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                      <div className="me-auto">
                         <div className="fw-bold">Special Beard Treatment</div>
                       </div>
                       <span className="p-amount">
-                        From<span>$40</span>
+                        From <span>$40</span>
                       </span>
                     </li>
-                    <li className="d-flex justify-content-between align-items-start">
-                      <div className=" me-auto">
+                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                      <div className="me-auto">
                         <div className="fw-bold">Color your Beard</div>
                       </div>
                       <span className="p-amount">
-                        From<span>$40</span>
+                        From <span>$40</span>
                       </span>
                     </li>
-                    <li className="d-flex justify-content-between align-items-start">
-                      <div className=" me-auto">
+                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                      <div className="me-auto">
                         <div className="fw-bold">Wax your Beard</div>
                       </div>
                       <span className="p-amount">
-                        From<span>$40</span>
+                        From <span>$40</span>
                       </span>
                     </li>
-                    <li className="d-flex justify-content-between align-items-start">
-                      <div className=" me-auto">
-                        <div className="fw-bold">Wax your Beard</div>
+                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                      <div className="me-auto">
+                        <div className="fw-bold">Another Service</div>
                       </div>
                       <span className="p-amount">
-                        From<span>$40</span>
+                        From <span>$40</span>
                       </span>
                     </li>
                   </ol>
@@ -85,7 +87,7 @@ const Service = () => {
           </div>
         </div>
       </section>
-      {/* 2nd Section */}
+      {/* section 2 */}
       <section id="service">
         <div className="container">
           <div className="row">
@@ -144,7 +146,7 @@ const Service = () => {
                             </li>
                             <li className="d-flex justify-content-between align-items-start">
                               <div className="ms-2 me-auto">
-                                <div className="fw-bold">Wax your Beard</div>
+                                <div className="fw-bold">Another Service</div>
                               </div>
                               <span className="p-amount">
                                 From<span>$40</span>
@@ -165,7 +167,7 @@ const Service = () => {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                        For Bread
+                        For Beard
                       </button>
                     </h2>
                     <div
@@ -205,7 +207,7 @@ const Service = () => {
                             </li>
                             <li className="d-flex justify-content-between align-items-start">
                               <div className="ms-2 me-auto">
-                                <div className="fw-bold">Wax your Beard</div>
+                                <div className="fw-bold">Another Service</div>
                               </div>
                               <span className="p-amount">
                                 From<span>$40</span>
@@ -222,95 +224,36 @@ const Service = () => {
             <div className="col-md-1"></div>
             <div className="col-md-5">
               <div>
-                <img src={img10} className="img-fluid" />
+                <img src={img10} className="img-fluid" alt="Service" />
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* 3rd Section */}
       <section id="s-category">
         <div className="container">
-          <div className="row">
-            <div className="offset-xl-1 col-xl-3 col-lg-4 col-md-4 col-sm-6">
-              <div className="sc-item">
-                <img src={img11} className="mb-4" />
-                <h3>
-                  <a href="">Stylish hair cut</a>
-                </h3>
-                <p>
-                  Available be the majority have suffered alteration in some
-                  form, by injected humour.
-                </p>
+          <div className="row text-center">
+            {[
+              { img: img11, title: "Stylish hair cut" },
+              { img: img12, title: "Cut & Hair Style" },
+              { img: img13, title: "Color & Hair Wash" },
+            ].map((item, index) => (
+              <div key={index} className="col-lg-4 col-md-6 col-12 mb-4">
+                <div className="sc-item">
+                  <img src={item.img} className="mb-4" alt={item.title} />
+                  <h3>
+                    <a href="#">{item.title}</a>
+                  </h3>
+                  <p>
+                    Available be the majority have suffered alteration in some
+                    form, by injected humour.
+                  </p>
+                </div>
               </div>
-            </div>
-
-            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
-              <div className="sc-item">
-                <img src={img12} className="mb-4" />
-                <h3>
-                  <a href="">Cut & Hair Style</a>
-                </h3>
-                <p>
-                  Available be the majority have suffered alteration in some
-                  form, by injected humour.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-6">
-              <div className="sc-item">
-                <img src={img13} className="mb-4" />
-                <h3>
-                  <a href="">Color & Hair Wash</a>
-                </h3>
-                <p>
-                  Available be the majority have suffered alteration in some
-                  form, by injected humour.
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
-
-      {/* 4th Section */}
-      {/* <section id="img-slider">
-        <div className="owl-carousel owl-theme">
-          <div className="item">
-            <div className="sl-item">
-              <img src="/src/image/p-0.png" />
-            </div>
-          </div>
-          <div className="item">
-            <div className="sl-item">
-              <img src="/src/image/p-1.png" />
-            </div>
-          </div>
-          <div className="item">
-            <div className="sl-item">
-              <img src="/src/image/p-2.png" />
-            </div>
-          </div>
-          <div className="item">
-            <div className="sl-item">
-              <img src="/src/image/p-3.png" />
-            </div>
-          </div>
-          <div className="item">
-            <div className="sl-item">
-              <img src="/src/image/p-4.png" />
-            </div>
-          </div>
-          <div className="item">
-            <div className="sl-item">
-              <img src="/src/image/p-0.png" />
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* {5th Section} */}
-
       <section id="testimonial">
         <div className="container">
           <div className="customer">
@@ -319,63 +262,25 @@ const Service = () => {
               <h2 className="title">CUSTOMERS SAY ABOUT US</h2>
             </div>
             <div className="row">
-              <div className="col-md-4 c-border">
-                <div className="t-item">
-                  <div className="review-star">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                  </div>
-                  <p className="msg">
-                    &quot;Consectetur adipiscing elit, sed do eiusmod tempor
-                    dunt ulter labore et dolore magna.
-                  </p>
-                  <div>
-                    <img src={img14} />
-                    <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 c-border">
-                <div className="t-item">
-                  <div className="review-star">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                  </div>
-                  <p className="msg">
-                    &quot;Consectetur adipiscing elit, sed do eiusmod tempor
-                    dunt ulter labore et dolore magna.
-                  </p>
-                  <div>
-                    <img src={img15} />
-                    <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
+              {[img14, img15, img16].map((image, index) => (
+                <div key={index} className="col-lg-4 col-md-6 col-12 mb-4">
+                  <div className="t-item">
+                    <div className="review-star">
+                      {[...Array(5)].map((_, i) => (
+                        <i key={i} className="fa fa-star"></i>
+                      ))}
+                    </div>
+                    <p className="msg">
+                      &quot;Consectetur adipiscing elit, sed do eiusmod tempor
+                      dunt ulter labore et dolore magna.
+                    </p>
+                    <div>
+                      <img src={image} alt={`customer-${index}`} />
+                      <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-md-4 c-border">
-                <div className="t-item">
-                  <div className="review-star">
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                    <i className="fa fa-star"></i>
-                  </div>
-                  <p className="msg">
-                    &quot;Consectetur adipiscing elit, sed do eiusmod tempor
-                    dunt ulter labore et dolore magna.
-                  </p>
-                  <div>
-                    <img src={img16} />
-                    <h6 className="d-inline-block ms-3">Wilma Mumduya</h6>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
