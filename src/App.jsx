@@ -1,22 +1,22 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-
 import Layout from "./components/Layout";
-import { Home, About, Service, Contact } from "./pages";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Service from "./pages/Service";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="About" element={<About />} />
-            <Route path="Service" element={<Service />} />
-            <Route path="Contact" element={<Contact />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="service" element={<Service />} />
+          <Route path="contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 
