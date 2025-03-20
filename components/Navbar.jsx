@@ -2,7 +2,8 @@ import { useState } from "react";
 import "./Navbar.css";
 import { RiCloseCircleLine } from "react-icons/ri";
 import { RxHamburgerMenu } from "react-icons/rx";
-import img1 from "/src/image/1.png";
+import img1 from "/src/image/1.png"; // Keeping this as you originally wrote it
+import { Link } from "react-router-dom"; // Import Link from React Router
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,6 @@ const Navbar = () => {
         <div className="container-fluid g-0">
           {/* Logo */}
           <a className="navbar-brand" href="#">
-            src/logo/1.png
             <img src={img1} alt="Logo" />
           </a>
 
@@ -37,24 +37,24 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" href="/">
+                <Link className="nav-link active" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="About">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="Service">
+                <Link className="nav-link" to="/service">
                   Service
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="Contact">
+                <Link className="nav-link" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
 
