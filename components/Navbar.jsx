@@ -17,7 +17,7 @@ const Navbar = () => {
           {/* Logo */}
           <a className="navbar-brand" href="#">
             src/logo/1.png
-            <img src="src/image/1.png" alt="Logo" />
+            <img src="/image/1.png" alt="Logo" />
           </a>
 
           {/* Toggle Button */}
