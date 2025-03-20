@@ -16,11 +16,8 @@ const Footer = () => {
             </div>
             <div className="col-md-6 text-center mb-4">
               <div className="footer-1">
-                <img
-                  src="/src/image/footer-logo.png"
-                  className="mb-4"
-                  alt="Footer Logo"
-                />
+                <img src="src/image/1.png" className="mb-4" alt="Footer Logo" />
+
                 <p className="mb-4">
                   There are many variations of <br />
                   passages of Lorem Ipsum available be the majority.
