@@ -14,6 +14,7 @@ import img13 from "/src/logo/services3.svg";
 import img14 from "/src/image/customer.png";
 import img15 from "/src/image/customer-1.png";
 import img16 from "/src/image/customer-2.png";
+import img17 from "/src/logo/scissors.svg";
 
 const Home = () => {
   return (
@@ -24,11 +25,7 @@ const Home = () => {
             <div className="col-md-6 col-lg-4 offset-lg-2">
               <div className="b-content">
                 <div>
-                  <img
-                    className="ms-5"
-                    src="/src/logo/scissors.svg"
-                    alt="Scissors"
-                  />
+                  <img className="ms-5" src={img17} alt="Scissors" />
                   <h1 className="ms-5">
                     WE&apos;RE THE <br />
                     LAST OF <br />

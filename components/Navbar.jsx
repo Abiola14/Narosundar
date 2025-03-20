@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Navbar.css";
 import { RiCloseCircleLine } from "react-icons/ri";
 import { RxHamburgerMenu } from "react-icons/rx";
+import img1 from "/src/image/1.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
           {/* Logo */}
           <a className="navbar-brand" href="#">
             src/logo/1.png
-            <img src="../image/1.png" alt="Logo" />
+            <img src={img1} alt="Logo" />
           </a>
 
           {/* Toggle Button */}
